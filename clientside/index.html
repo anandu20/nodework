@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/node.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="one">
+            <div class="ek">
+                <img src="./images/employee.png" alt="">
+            </div>
+            <h1>EMPLOYEES.COM</h1>
+        </div>
+        <div class="two">
+            <h3><a href="./pages/add.html"><button>ADD EMPLOYEES</button></a></h3>
+        </div>
+    </div>
+    <div class="main">
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+           <tbody id="tbody" class="tbody">
+              <tr>
+                <td><input type="text" id="name" name="name" class="inp"></td>
+                <td><input type="text"  id="desig" name="desig" class="inp"></td>
+                <td><input type="text" id="salary" name="salary" class="inp"></td>
+                <td><input type="text" id="exp" name="exp" class="inp"></td>
+              </tr>
+              <tr>
+                <td align="center" colspan="4"><div class="buttons">
+                    <button id="deleteButton">Delete </button>
+                    <button id="updateButton">Update</button>
+                    <button id="saveButton">Save</button>
+                </div></td>
+              </tr>
+              <tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html> 
